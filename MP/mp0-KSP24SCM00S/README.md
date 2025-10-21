@@ -1,0 +1,143 @@
+# CS 442 MP0: Logistics
+
+## Goals
+
+After successfully completing this machine problem (MP), you should understand
+how to:
+
+- accept GitHub Classroom MP invitations
+- clone repositories to your local machine
+- open MP folders in VSCode
+- complete the MP report
+- commit changes and submit your work
+- confirm that your submissions are successful
+
+## 1. Overview
+
+This MP is designed to help guide you through the steps you must follow to
+accept, access, and submit your work on MPs. You will follow the same steps for
+each subsequent MP, so it's important that you understand them well --- be sure
+to ask for help if you're unclear on how to perform any step, or *why* you're
+doing it!
+
+## 2. Accepting MPs
+
+Prior to accessing this writeup, you must have already created a GitHub account
+and accepted the invitation to create your copy of the MP repository. At this
+point, GitHub Classroom "knows" who you are (i.e., it has saved the mapping from
+your GitHub account username to the Hawk ID you selected). You will accept
+future MP invitations in the same manner.
+
+For the duration of the semester, **do not change your GitHub username**, as it
+will mess up the mapping and we won't recognize your submissions.
+
+After the repository is created, you'll be given a link to its homepage on
+GitHub -- a URL that looks something like
+`https://github.com/cs442app/mpX-USERNAME` (where `X` is the MP number and
+`USERNAME` is your GitHub username). Note this URL, as you'll need it to access
+the repository in the future.
+
+At the top of the repository homepage is a list of its files/directories, and
+the contents of the `README.md` file (this writeup) will be displayed under that
+listing. The GitHub web interface allows you to edit files directly in the
+browser, but we *strongly recommend* that you do not do so. Instead, you should
+**clone** the repository to your local machine and work on it there; we'll show
+you how to do that in the next section.
+
+## 3. Cloning the Repository
+
+The easiest way to clone the repository to your local machine is to use the
+GitHub Desktop application. If you haven't already installed it, you can
+download it from [desktop.github.com](https://desktop.github.com). Once you have
+it installed, you can clone the repository by going to the repository homepage
+on GitHub and clicking the green "Code" button, then selecting "Open with GitHub
+Desktop". This will open the GitHub Desktop application and prompt you to choose
+a location on your local machine to save the repository.
+
+If you are familiar with alternative methods of cloning a repository (e.g.,
+using the command line), you are welcome to use those instead.
+
+Once you have cloned the repository to your local machine, you can open the
+repository in VSCode by starting the application and selecting "File" -> "Open"
+and choosing the repository folder. After doing this, you should see the
+repository's files in the file explorer pane on the left side of the VSCode
+window.
+
+You should open this "README.md" file in VSCode and continue following the
+instructions from there. Instead of viewing the file as plain text, you can view
+the formatted version by clicking the "Open Preview" button at the top right of
+the editor pane.
+
+## 4. Working on MPs
+
+Subsequent MPs will ask you to edit and/or create files in the repository in
+order to implement specified functionality. We will typically provide you with
+demo videos, code snippets, and other resources to help you. We will also
+provide you with a grading rubric that summarizes the requirements and
+associated point values for the MP.
+
+For this MP, however, there's no coding to do. Instead, you'll just edit the MP
+report and submit it. We'll show you how to do that in the next two sections.
+
+### 4.1. Completing the MP Report
+
+Every MP will come with a file named `REPORT.md`, which is the template for your
+MP report. Start by adding your name and AID to the file. Next, mark the boxes
+in the self-evaluation checklist that apply to your work, then edit the "Summary
+and Reflection" section. Please be candid and succinct in your reports!
+
+### 4.2. Committing and Submitting
+
+When you've finished editing your report, you must **commit** it to your local
+repository. You can do this by going to the "Source Control" pane on the left
+side of the VSCode window, clicking the "+" icon next to files containing
+changes you want to commit (for this MP, the only file you should commit changes
+to is `REPORT.md`), then entering a commit message in the text field and
+clicking the button labeled "Commit".
+
+When commiting changes, sometimes you will also need to add new files to the
+repository. You do this the same way, by clicking the "+" icon next to the new
+files you want to add, then committing them. Generally speaking, you should only
+commit files that are necessary for us to build and run your code (e.g., source
+files and assets), and not files that are generated by the build process (e.g.,
+compiled binaries).
+
+Committing your changes saves a snapshot of them to your local repository, but
+in order to submit your work, you must also **push** your changes to the
+repository on GitHub. This is important because we will grade the version of
+your work that is stored on GitHub, not the version that is stored on your local
+machine.
+
+After committing your changes, the "Commit" button in the Source Control pane
+should change to read "Sync Changes". To submit your work, click this button,
+and your changes will be pushed to the GitHub repository. If you don't see the
+"Sync Changes" button, you can also push your changes by selecting "Push" from
+the "..." menu in the Source Control pane.
+
+### 4.3. Confirming Your Submission
+
+After you have pushed your changes to GitHub, you should go to the repository
+homepage on GitHub and confirm that your changes are visible there. You should
+see the updated `REPORT.md` file with the information you added, and you should
+see the changes you made to the file in the commit history.
+
+If you don't see your changes on GitHub, you should double-check that you have
+committed and pushed your changes in VSCode. If you still don't see your
+changes, you should ask for help.
+
+Once you have confirmed that your changes are visible on GitHub, you have
+successfully submitted your work. You can commit and push as many times as you
+like before the deadline, and we will grade the most recent version of your work
+that was submitted before the deadline.
+
+## 5. Summary
+
+Here's a recap of the steps you need to follow to complete an MP:
+
+1. Accept the MP invitation link
+2. Clone the repository to your local machine
+3. Open the repository in VSCode and read the instructions in the `README.md`
+   file
+4. Add/Edit files in the repository to implement required functionality
+5. Edit the `REPORT.md` file to include all requisite information
+6. Commit and push your changes to GitHub
